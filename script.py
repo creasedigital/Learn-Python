@@ -1,3 +1,6 @@
-print('Hello, world!')
+'''print('Hello, world!')
 print(1 + 2)
-print('Python is awesome')
+trying out python
+'''
+"print('Hello\n Python')"
+print('Python is \n awesome')
