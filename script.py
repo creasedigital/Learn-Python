@@ -1,3 +1,4 @@
+
 # -------------------------------------COMMENTS
 # This is a single line comment
 
@@ -25,16 +26,16 @@ to process
 # bool - booleans are represented with a True or False value
 
 
-print(type('John'))
-print(type(546892))
-print(type(63.52))
-print(type(False))
+# print(type('John'))
+# print(type(546892))
+# print(type(63.52))
+# print(type(False))
 
 # ----------------------------------------VARIABLES
 # Naming conventions used in python includes:
 '''The use of underscore to connect values rather than space'''
 # variables are use to store values to make them reusable
-
+'''
 user_age = 50
 user_location = 'Abuja'
 user_height = 186
@@ -44,3 +45,19 @@ user_age = 30
 
 # commas are used to declare multiple values in a function
 print(user_age, user_location, user_height)
+'''
+
+# ----------------------------------------ARITHMETIC OPERATIONS
+var_1 = 20
+var_2 = var_1+2  # addition
+
+print(var_1, var_2)
+
+var_3 = var_1-20  # substraction
+print(var_3)
+
+var_4 = var_1*2  # multiplication
+print(var_4)
+
+var_5 = var_1/2  # division
+print(var_5)
