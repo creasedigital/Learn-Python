@@ -53,7 +53,7 @@ var_2 = var_1+2  # addition
 
 print(var_1, var_2)
 
-var_3 = var_1-20  # substraction
+var_3 = var_2-20  # substraction
 print(var_3)
 
 var_4 = var_1*2  # multiplication
@@ -61,3 +61,18 @@ print(var_4)
 
 var_5 = var_1/2  # division
 print(var_5)
+
+var_6 = var_1 // 2  # floor division
+print(var_5)
+
+var_7 = var_1 % 3  # modulus
+print(var_7)
+
+var_8 = var_3 ** 5  # power operator
+print(var_8)
+
+var_9 = 'Orange' + ' Juice'  # string arithmetic
+print(var_9)
+
+var_10 = var_9 * 4  # string arithmetic
+print(var_10)
