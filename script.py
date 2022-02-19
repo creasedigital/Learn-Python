@@ -48,6 +48,8 @@ print(user_age, user_location, user_height)
 '''
 
 # ----------------------------------------ARITHMETIC OPERATIONS
+'''
+
 var_1 = 20
 var_2 = var_1+2  # addition
 
@@ -76,3 +78,19 @@ print(var_9)
 
 var_10 = var_9 * 4  # string arithmetic
 print(var_10)
+'''
+
+# --------------------------------INPUT & TYPE CONVERSION
+num = 5
+print(num)
+
+num = int(input('Please enter a number'))
+
+num_2 = float(input('Please enter a number'))
+
+print(type(num_2))
+
+print(num_2 + 5)
+
+bool_1 = bool(input('Please enter True or False'))
+print(bool_1)
