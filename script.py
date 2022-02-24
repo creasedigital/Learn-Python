@@ -81,6 +81,7 @@ print(var_10)
 '''
 
 # --------------------------------INPUT & TYPE CONVERSION
+'''
 num = 5
 print(num)
 
@@ -94,3 +95,6 @@ print(num_2 + 5)
 
 bool_1 = bool(input('Please enter True or False'))
 print(bool_1)
+'''
+
+# ----------------------------------CONDITIONAL STATEMENTS
