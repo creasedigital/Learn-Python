@@ -98,3 +98,14 @@ print(bool_1)
 '''
 
 # ----------------------------------CONDITIONAL STATEMENTS
+# If the statement.
+
+# If else statement.
+
+# Nested if statement.
+
+# If…Elif ladder.
+
+# Short Hand if statement.
+
+# Short Hand if-else statement.
