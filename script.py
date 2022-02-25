@@ -87,6 +87,11 @@ print(num)
 
 num = int(input('Please enter a number'))
 
+name = input('What is your name: ')
+age = input('How old are you?')
+
+print('Hello ' + name + '!' ' You are ' + age + ' years old')
+
 num_2 = float(input('Please enter a number'))
 
 print(type(num_2))
