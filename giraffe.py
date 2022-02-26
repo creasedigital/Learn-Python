@@ -62,17 +62,37 @@
 
 # Calculator App
 
-num1 = float(input('Enter the first number: '))
-operator = input('Enter operator: ')
-num2 = float(input('Enter the second number: '))
+# num1 = float(input('Enter the first number: '))
+# operator = input('Enter operator: ')
+# num2 = float(input('Enter the second number: '))
 
-if operator == '+':
-    print(num1 + num2)
-elif operator == '-':
-    print(num1 - num2)
-elif operator == '/':
-    print(num1 / num2)
-elif operator == '*':
-    print(num1 * num2)
-else:
-    print('invalid operator!')
+# if operator == '+':
+#     print(num1 + num2)
+# elif operator == '-':
+#     print(num1 - num2)
+# elif operator == '/':
+#     print(num1 / num2)
+# elif operator == '*':
+#     print(num1 * num2)
+# else:
+#     print('invalid operator!')
+
+
+# Dictionary
+month_conversions = {
+    'Jan': 'January',
+    'Feb': 'February',
+    'Mar': 'March',
+    'Apr': 'April',
+    'May': 'May',
+    'Jun': 'June',
+    'Jul': 'July',
+    'Aug': 'August',
+    'Sep': 'September',
+    'Oct': 'October',
+    'Nov': 'November',
+    'Dec': 'December',
+}
+
+print(month_conversions['Apr'])
+print(month_conversions.get('Feb'))
