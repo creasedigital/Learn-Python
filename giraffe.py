@@ -79,20 +79,56 @@
 
 
 # Dictionary
-month_conversions = {
-    'Jan': 'January',
-    'Feb': 'February',
-    'Mar': 'March',
-    'Apr': 'April',
-    'May': 'May',
-    'Jun': 'June',
-    'Jul': 'July',
-    'Aug': 'August',
-    'Sep': 'September',
-    'Oct': 'October',
-    'Nov': 'November',
-    'Dec': 'December',
-}
+# month_conversions = {
+#     'Jan': 'January',
+#     'Feb': 'February',
+#     'Mar': 'March',
+#     'Apr': 'April',
+#     'May': 'May',
+#     'Jun': 'June',
+#     'Jul': 'July',
+#     'Aug': 'August',
+#     'Sep': 'September',
+#     'Oct': 'October',
+#     'Nov': 'November',
+#     'Dec': 'December',
+# }
 
-print(month_conversions['Apr'])
-print(month_conversions.get('Feb'))
+# print(month_conversions['Apr'])
+# print(month_conversions.get('Feb'))
+
+
+# Do while
+# i = 1
+# while i < 10:
+#     print('my number is ' + str(i))
+#     i += 1
+
+# print('my number is finished')
+
+# Guessing Game
+# secret_word = 'giraffe'
+# guess = ''
+# guess_count = 0
+# guess_limit = 5
+# out_of_guesses = False
+
+
+# while secret_word != guess and not (out_of_guesses):
+#     if guess_count < guess_limit:
+#         guess = input('Enter guess: ')
+#         guess_count += 1
+#     else:
+#         out_of_guesses = True
+
+# if out_of_guesses:
+#     print('Out of guesses, YOU LOSE!')
+# else:
+#     print('Yatar! You Won!')
+
+# for loops
+# for letter in 'Giraffe Academy':
+#     print(letter)
+friends = ['Ronaldo', 'Kante', 'Tuchel']
+for friend in friends:
+    print(friend)
