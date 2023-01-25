@@ -3,4 +3,4 @@ wages = float(input('enter your payrate estimate\n'))
 
 pay = round(hours * wages)
 
-print(pay)
+print(f"your due pay is {pay}")
