@@ -5,4 +5,4 @@ try:
         for num in range(nums):
             print('CLEAN UP YOUR ROOM!')
 except:
-    print('enter a valid digit')
+    print('please enter a valid digit')
