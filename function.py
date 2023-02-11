@@ -5,4 +5,5 @@ def sing_happy_birthday(name="friend"):
     print("Happy birthday to you")
 
 
-sing_happy_birthday("Michael")
+# sing_happy_birthday("Michael")
+sing_happy_birthday()
