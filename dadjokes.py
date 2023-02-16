@@ -18,8 +18,8 @@ res = requests.get(
 ).json()
 
 result = res['results']
-random_joke_num = len(result)
-random_joke = choice(result)['joke']
+random_joke_num = 0 or len(result)
+random_joke = choice(result)['joke'] if random_joke_num > 0 else ''
 
 if random_joke_num == 0:
 
