@@ -3,6 +3,9 @@ class User:
         self.first = first
         self.last = last
         self.age = age
+        
+    def __repr__(self):
+        return f"Nomenclature is {self.first} {self.last}"
 
     def fullname(self):
         return f"{self.first} {self.last}"
@@ -18,6 +21,7 @@ class User:
         
 
 user1 = User("Punk", "Manewe", 31)
+print(user1)
 print(user1.fullname())
 print(user1.likes("eating"))
 
