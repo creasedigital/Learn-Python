@@ -26,7 +26,7 @@ soup = BeautifulSoup(html, "html.parser")
 
 print(soup.find_all("li"))
 print(soup.find_all(attrs={"data-example": "yes"}))
-print(soup.find_all(class_="special"))
+print(soup.find_all(class_="special")) #due to conflict _ is attached to class
 
 print(soup.select("#first")) #navigating through css selectors
 
