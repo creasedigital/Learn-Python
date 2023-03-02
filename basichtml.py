@@ -13,8 +13,8 @@ html = """
         <p>more text</p>
     </div>
     <ol>
-    <li>This list item is special.</li>
-    <li>This list item is also special.</li>
+    <li class="special>This list item is special.</li>
+    <li class="special>This list item is also special.</li>
     <li>This list item is not special.</li>
     </ol>
     <div>bye</div>
@@ -23,6 +23,9 @@ html = """
 """
 
 soup = BeautifulSoup(html, "html.parser")
+
 print(soup.find_all("li"))
+print(soup.find_all(attrs={"data-example": "yes"}))
+print(soup.find_all(class_="special"))
 
 print(soup.body.div)
