@@ -28,4 +28,6 @@ print(soup.find_all("li"))
 print(soup.find_all(attrs={"data-example": "yes"}))
 print(soup.find_all(class_="special"))
 
+print(soup.select("#first")) #navigating through css selectors
+
 print(soup.body.div)
