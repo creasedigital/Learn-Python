@@ -1,3 +1,5 @@
+from bs4 import BeautifulSoup
+
 html = """
 <!DOCTYPE html>
 <html lang="en">
@@ -19,3 +21,8 @@ html = """
 </body>
 </html>
 """
+
+soup = BeautifulSoup(html, "html.parser")
+print(soup.find_all("li"))
+
+print(soup.body.div)
